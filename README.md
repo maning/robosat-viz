@@ -2,7 +2,7 @@
 
 ## What
 
-* Vizualization of [Robosat][https://github.com/mapbox/robosat/]🤖  trained imagery in the Philippines 🇵🇭.
+* Vizualization of [Robosat](https://github.com/mapbox/robosat/)🤖  trained imagery in the Philippines 🇵🇭.
 * TMS are hosted in s3.
 * Use it in anyway you want except when it violates human rights and the destruction of our home planet.
 
