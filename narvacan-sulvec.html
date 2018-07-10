@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset=utf-8 />
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui' />
+    <title>Narvacan Sulvec Port Road</title>
+    <script src='js/leaflet.js'></script>
+    <script src='js/leaflet-side-by-side.min.js'></script>
+    <link href='js/leaflet.css' rel='stylesheet' />
+    <style>
+    body {
+        margin: 0;
+        padding: 0;
+    }
+    #map {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        width: 100%;
+    }
+    </style>
+</head>
+
+<body>
+    <div id='map'></div>
+
+    <script>
+    var map = L.map('map').setView([17.44689,120.45178], 20);
+
+    var probabilitiesLayer = L.tileLayer('https://s3.amazonaws.com/maning-robosat/5b4439bf2b6a08001185f969-segmentation/{z}/{x}/{y}.png', {
+    attribution: 'probabilities by Robosat',
+    minNativeZoom: 20,
+    minZoom: 19,
+    maxZoom: 20,
+    }).addTo(map);
+
+    var imageryLayer = L.tileLayer('https://s3.amazonaws.com/maning-robosat/5b4439bf2b6a08001185f969-images/{z}/{x}/{y}.webp', {
+    attribution: 'imagery from OAM',
+    minNativeZoom: 20,
+    minZoom: 19,
+    maxZoom: 20
+    }).addTo(map)
+
+    L.control.sideBySide(imageryLayer, probabilitiesLayer).addTo(map);
+    </script>
+</body>
+</html>
