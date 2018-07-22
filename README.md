@@ -12,3 +12,6 @@
 * [Narvacan Sulvec Port Road](https://maning.github.io/robosat-viz/narvacan-sulvec.html) - testing pre-trained model on another drone footage at Narvacan.
 * [Villa Imelda, MacArthur](https://maning.github.io/robosat-viz/villaimelda-macarthur.html) - detection using a z21 pre-trained model to a z20-21 imagery tiles.
 
+## Notes
+
+* [OSM diary on data preparation](https://www.openstreetmap.org/user/maning/diary/44462)
