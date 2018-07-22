@@ -31,14 +31,14 @@
     attribution: 'probabilities',
     minNativeZoom: 20,
     minZoom: 19,
-    maxZoom: 20,
+    maxZoom: 21,
     }).addTo(map);
 
     var imageryLayer = L.tileLayer('https://s3.amazonaws.com/maning-robosat/660c5321-images/{z}/{x}/{y}.webp', {
     attribution: 'imagery',
     minNativeZoom: 20,
     minZoom: 19,
-    maxZoom: 20
+    maxZoom: 21
     }).addTo(map)
 
     L.control.sideBySide(imageryLayer, probabilitiesLayer).addTo(map);
