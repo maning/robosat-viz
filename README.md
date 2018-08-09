@@ -9,8 +9,9 @@
 
 ## List
 * [American Red Cross drone footage in Visayas](https://maning.github.io/robosat-viz/arc.html) - building detection from drone captured by the American Red Cross.
-* [Narvacan Sulvec Port Road](https://maning.github.io/robosat-viz/narvacan-sulvec.html) - testing pre-trained model on another drone footage at Narvacan.
-* [Villa Imelda, MacArthur](https://maning.github.io/robosat-viz/villaimelda-macarthur.html) - detection using a z21 pre-trained model to a z20-21 imagery tiles.
+* [Narvacan Sulvec Port Road, Philippines](https://maning.github.io/robosat-viz/narvacan-sulvec.html) - testing pre-trained model on another drone footage at Narvacan.
+* [Villa Imelda, MacArthur, Philippines](https://maning.github.io/robosat-viz/villaimelda-macarthur.html) - detection using a z21 pre-trained model to a z20-21 imagery tiles.
+* [Leda Coz Bazar, Bangladesh](https://maning.github.io/robosat-viz/leda-cox-bazar.html) - detection using a z21 pre-trained model to a z20 imagery tiles taken by IOM Drone Imagery project for the Rohingya refugees.
 
 ## Notes
 
